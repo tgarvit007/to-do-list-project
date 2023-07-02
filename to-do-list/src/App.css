@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.user-profile {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-profile span {
+  margin-right: 10px;
+}
+
+.user-profile button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.user-profile button:hover {
+  background-color: #555;
+}
+
+.auth-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.auth-container h3 {
+  margin-bottom: 10px;
+  color: red;
+}
+
+.auth-container input[type='text'],
+.auth-container input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth-container button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-container button:last-child {
+  margin-right: 0;
+}
+
+.auth-container button:hover {
+  background-color: #555;
+}
